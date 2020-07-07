@@ -6,5 +6,5 @@
 filename=$(get_filename $1)
 extension=$(get_extension $1)
 
-ffmpeg.exe -i $1 -s 1280x720 $filename.720p.$extension
+ffmpeg -i $1 -s 1280x720 $filename.720p.$extension
 
