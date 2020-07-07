@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Needed for file based operations
 . util.sh --source-only
