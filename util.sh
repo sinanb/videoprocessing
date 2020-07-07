@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 get_filename() {
 	local filename=$(realpath "$1")
